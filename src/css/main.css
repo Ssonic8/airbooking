@@ -1,3 +1,110 @@
+footer {
+  background-color: #454545;
+  min-height: 580px;
+  width: 100%;
+}
+
+footer h3 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #cfcfcf;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-contacts {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.footer-contacts p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.footer-contacts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-contacts-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contacts-item svg {
+  margin-right: 20px;
+}
+
+.footer-menu {
+  width: 310px;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  flex-direction: column;
+  height: 140px;
+  padding-left: 0;
+}
+
+.footer-menu-item a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.footer-menu-item a:hover {
+  color: #fff;
+}
+
+.footer-social {
+  width: 370px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-social-button {
+  margin-right: 25px;
+}
+
+.footer-social-button:hover {
+  opacity: 0.6;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  color: #cfcfcf;
+}
 .main-navigation {
   width: 100%;
   min-height: 76px;
@@ -8,12 +115,6 @@
 
 .main-navigation-list ul {
   display: none;
-}
-
-.main-logo h2 {
-  font-size: 48px;
-  color: #c19b76;
-  text-transform: uppercase;
 }
 
 .main-window {
@@ -178,6 +279,63 @@ a {
   text-align: center;
   color: #686868;
 }
+.news-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+  margin: 0;
+  margin-bottom: 30px;
+  box-shadow: 0 0 24px #c1d9ec;
+}
+
+.news-item-post {
+  padding-left: 25px;
+  padding-right: 10px;
+  background-color: #fff;
+  color: #686868;
+}
+
+.news-item h5 {
+  margin-top: 40px;
+  margin-bottom: 4px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.news-item-date {
+  padding-left: 10px;
+  margin-top: 4px;
+  font-size: 14px;
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+}
+
+.news-item-text {
+  padding-left: 0;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+}
+
+.news-item-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  background-color: #0e6fb3;
+  color: #fff;
+}
 .reviews-list {
   display: flex;
   justify-content: center;
@@ -192,6 +350,7 @@ a {
 .reviews-item > p {
   max-width: 770px;
   padding: 40px 30px;
+  margin-top: 0;
   margin-bottom: 50px;
   font-size: 18px;
   line-height: 40px;
@@ -411,11 +570,44 @@ a {
   margin-top: 40px;
   font-size: 24px;
   color: #686868;
-  background-color: #ebebeb;
+  background-color: #fff;
   border-radius: 2px;
 }
 
 .services-promo-button:hover {
   background-color: #fff;
-  box-shadow: 2px 2px 3px #686868;
+  box-shadow: 4px 4px 5px #686868;
+}
+.video {
+  background: #7f8d93 url("../img/video/videobg-overlay.jpg") center no-repeat;
+}
+
+.video-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-title h2 {
+  max-width: 600px;
+  margin-top: 160px;
+  margin-bottom: 80px;
+  font-family: 'Gilda Display', serif;
+  color: #fff;
+}
+
+.video-button {
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.video-button a {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-image: url("../img/video/play-button.png");
+}
+
+.video-button a:hover {
+  background-image: url("../img/video/play-button-full.png");
 }
